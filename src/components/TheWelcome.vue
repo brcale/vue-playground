@@ -15,9 +15,6 @@ const dec = () => {
 async function fetchData() {
   try {
     isLoading.value = true
-    setTimeout(() => {
-      isLoading.value = false
-    }, 3000)
     const response = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json')
     const actualData = await response.json()
     data.value = actualData
