@@ -4,8 +4,4 @@ defineProps<{
 }>()
 </script>
 
-<template>
-  <div>
-    <p>{{ msg }}</p>
-  </div>
-</template>
+<template></template>
